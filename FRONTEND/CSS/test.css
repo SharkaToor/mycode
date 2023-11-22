@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.Nav{
+    margin: 0%;
+    padding: 15px;
+    background-color: rgba(23, 139, 159, 0.486) ;
+    border-radius: 3px;
+    box-shadow: 5px 20px 30px 10px rgb(198, 70, 70);
+    display: flex;
+    justify-content: space-evenly;
+}
+#button1{
+    color:white;
+       background-color: rgb(0, 0, 0);
+       border-radius: 20px;
+       padding: 10px;
+}
+#button2{
+    color:white;
+       background-color: rgb(0, 0, 0);
+       border-radius: 10px;
+       padding: 10px;
+}
+.home-style{
+    background-image: url('../Html/Assets/black\ background.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  opacity: 0;
+  background: transparent black;
+  height: 600px;
+  color: aliceblue;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    padding: 8px;
+    background-color:rgba(41, 40, 37, 0.507) ;
+    color: azure;
+    font-size: 28px;
+}
